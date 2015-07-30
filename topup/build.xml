@@ -40,7 +40,7 @@
 		<!-- Copy static HTML and JSP, CSS, JS files to work dir -->
 		<copy todir="${work.dir}">
 			<fileset dir="${web.dir}">
-				<exclude name="**/*.jar"/>
+				<exclude name="**/a.jar"/>
 			</fileset>
 		</copy>
 
