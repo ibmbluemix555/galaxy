@@ -12,7 +12,7 @@ new one
 	<property name="webbbbb.dir"      value="WebContent"/>
 
 
-	<!-- Define the CLASSPATH -->
+	<!-- Define the test CLASSPATH -->
 	<path id="compile.classpath">
 		<pathelement path="${env.CLASSPATH}"/>
 		<fileset dir="${web.dir}">
