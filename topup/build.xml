@@ -2,7 +2,7 @@ new one
 <project name="Hello" default="war" basedir=".">
 
 
-	<!-- Define the properties used by the build -->
+	<!-- Define the properties usedd by the build -->
 
 	<property environment="env" />
 	<property name="app.name"      value="hello"/>
